@@ -1,6 +1,7 @@
 [workspace]
 
 members = [
+  "examples/rust-tensorflow",
   "examples/rust-tesseract",
   "examples/rust-simple",
   "lib-rust"

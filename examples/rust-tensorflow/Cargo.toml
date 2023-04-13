@@ -1,0 +1,10 @@
+[package]
+name = "rust-tensorflow"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hypetrigger = { path = "../../lib-rust", features = ["photon", "tesseract", "tensorflow"] }
+tensorflow = "0.20.0"
+tensorflow-sys = "0.23.0"
+image = "0.23.14" # matches the version used in Hypetrigger
